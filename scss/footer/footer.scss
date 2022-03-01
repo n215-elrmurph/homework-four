@@ -1,0 +1,84 @@
+footer {
+    max-width: $banner-footer-width;
+    height: 100px;
+    background-color: $site-blue;
+    position: relative;
+    margin-top: 100.4px;
+    font-family: gillSans;
+
+    .logo-image {
+        position: absolute;
+        left: 150px;
+        top: 29px;
+    }
+
+    .copyright {
+        position: absolute;
+        color: $site-white;
+        top: 43px;
+        left: 532px;
+        font-size: 12px;
+    }
+
+    .social-logos {
+        a {
+            color: $site-white;
+            font-size: 130%;
+            padding-left: 12px;
+            
+        }
+
+        .facebook {
+            position: absolute;
+            left: 1017px;
+            top: 39px;
+        }
+
+        .instagram {
+            position: absolute;
+            left: 1061.4px;
+            top: 39px;
+        }
+
+        .twitter {
+            position: absolute;
+            left: 1106.3px;
+            top: 39px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    footer {
+        max-width: 400px;
+
+        .logo-image {
+            size: 80%;
+            left: 15px;
+        }
+        .copyright {
+            left: 50%;
+        }
+
+        .social-logos {
+            font-size: 50%;
+            
+            .facebook {
+                top: 15px;
+                left: 160px;
+            }
+
+            .instagram {
+                top: 15px;
+                left: 185px;
+            
+            }
+
+            .twitter {
+                top: 15px;
+                left: 210px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,450 @@
+.main-body {
+    max-width: $banner-footer-width;
+    max-height: 1292px;
+    margin: auto;
+    background-color: $site-white;
+
+
+    .article-images {
+        display: flex;
+        justify-content: center;
+
+
+        .article-image1 {
+            height: 304px;
+            width: 236px;
+            background-image: linear-gradient(
+            rgba($site-black,.5),
+            rgba($site-black,.5)
+            ),url("../images/tour/tour-01.jpeg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: -40px 30px 0px 0px;
+            z-index: 99;
+            position: relative;
+
+                .image-title {
+                    color: $site-white;
+                    position: absolute;
+                    font-size: 60px;
+                    top: 56px;
+                    left: 30px;
+                    font-family: proxima2;
+                    font-weight: bold;
+                }
+           
+                .image-text {
+                    color: $site-white;
+                    position: absolute;
+                    font-size: 30px;
+                    left: 42px;
+                    top: 120px;
+                    font-family: proxima2;
+                    font-weight: bold;
+                }
+
+                .learn-more {
+                    position: relative;
+                    color: $site-white;
+                    height: 40px;
+                    width: 133px;
+                    background-color: $site-blue;
+                    border-radius: 25px;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    top: 208px;
+                    left: 52px;
+                    font-size: 15px;
+                    font-family: gillSans;
+
+                    a {
+                        text-decoration: none;
+                        color: $site-white;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+        }
+        .article-image2 {
+            height: 304px;
+            width: 236px;
+            background-image: linear-gradient(
+            rgba($site-black,.5),
+            rgba($site-black,.5)
+            ),url("../images/tour/tour-02.jpeg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: -40px 30px 0px 0px;
+            z-index: 99;
+            position: relative;
+
+            .image-title {
+                color: $site-white;
+                position: absolute;
+                font-size: 60px;
+                top: 56px;
+                left: 50px;
+                font-family: proxima2;
+                font-weight: bold;
+            }
+
+            .image-text {
+                color: $site-white;
+                position: absolute;
+                font-size: 30px;
+                left: 47px;
+                top: 120px;
+                font-family: proxima2;
+                font-weight: bold;
+            }
+
+            .learn-more {
+                position: relative;
+                color: $site-white;
+                height: 40px;
+                width: 133px;
+                background-color: $site-blue;
+                border-radius: 25px;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                top: 208px;
+                left: 52px;
+                font-size: 15px;
+                font-family: gillSans;
+
+                a {
+                    text-decoration: none;
+                    color: $site-white;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        .article-image3 {
+            height: 304px;
+            width: 236px;
+            background-image: linear-gradient(
+            rgba($site-black,.5),
+            rgba($site-black,.5)
+            ),url("../images/tour/tour-03.jpeg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: -40px 30px 0px 0px;
+            z-index: 99;
+            position: relative;
+            overflow: hidden;
+
+            .image-title {
+                color: $site-white;
+                position: absolute;
+                font-size: 60px;
+                top: 56px;
+                left: -56px;
+                font-family: proxima2;
+                font-weight: bold;
+                
+            }
+
+            .image-text {
+                color: $site-white;
+                position: absolute;
+                font-size: 30px;
+                left: 50px;
+                top: 120px;
+                font-family: proxima2;
+                font-weight: bold;
+            }
+
+            .learn-more {
+                position: relative;
+                color: $site-white;
+                height: 40px;
+                width: 133px;
+                background-color: $site-blue;
+                border-radius: 25px;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                top: 208px;
+                left: 52px;
+                font-size: 15px;
+                font-family: gillSans;
+
+                a {
+                    text-decoration: none;
+                    color: $site-white;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    
+    .booking-form-title {
+        font-size: 60px;
+        color: $site-black;
+        margin-left: 231px;
+        padding-top: 59px;
+        padding-bottom: 32px;
+    }
+
+    .form-content {
+        max-width: $home-form-width;
+        min-height: 80px;
+        margin: $center;
+        position: relative;
+
+
+
+        .top-boxes {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .long-box {
+                width: 443px;
+            }
+
+            .icon {
+                position: absolute;
+            }
+
+            input {
+                width: 344px;
+                height: 58px;
+                padding-left: 10px;
+                border: $site-blue 1px solid;
+                font-family: gillSans;
+                font-size: 18px;
+            }
+        }
+
+        .check-in-boxes {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: gillSans;
+            font-size: 18px;
+
+            .long-box {
+                width: 698px;
+            }
+
+            img {
+                position: absolute;
+                left: 780px;
+                height: 18.99px;
+                width: 18.99px;
+            }
+
+            input {
+                width: 344px;
+                height: 58px;
+                padding-left: 10px;
+                border: $site-blue 1px solid;
+                font-family: gillSans;
+                font-size: 18px;
+            }
+        }
+
+        .drop-down-boxes {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: gillSans;
+
+            img.adult {
+                position: absolute;
+                left: 190px;
+                top: 17px;
+                height: 20.7px;
+                width: 20.7px;
+            }
+
+            img.children {
+                position: absolute;
+                left: 495px;
+                top: 17px;
+                height: 20.7px;
+                width: 20.7px;
+            }
+
+            img.rooms {
+                position: absolute;
+                left: 785px;
+                top: 17px;
+                height: 20.7px;
+                width: 20.7px;
+            }
+
+            p {
+                display: inline;
+                margin-right: 50.8px;
+                font-size: 18px;
+            }
+
+            input {
+                width: 103px;
+                height: 58px;
+                padding-left: 10px;
+                border: $site-blue 1px solid;
+                font-family: gillSans;
+                font-size: 18px;
+            }
+
+            .adult-input {
+                p {
+                    font-size: 18px;
+                    margin-right: 80px;
+                }
+                
+            }
+        }
+
+        .message {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+            input {
+                width: 818px;
+                height: 192px;
+                border: $site-blue 1px solid;
+               font-family: gillSans;
+               font-size: 18px;
+            }
+        }
+
+        .submit-button {
+            position: absolute;
+            background-color: $site-blue;
+            width: 813px;
+            height: 60.59px;
+            text-align: center;
+            border-radius: 25px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin-top: 37px;
+            font-size: 15px;
+
+            a {
+                color: $site-white;
+                text-decoration: none;
+                font-family: gillSans;
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-body {
+        width: 400px;
+        min-height: 2020px;
+
+        .article-images {
+            flex-direction: column;
+            align-items: center;  
+        }
+    }
+
+
+    .form-content {
+        max-width: 400px;
+        min-height: 1200px;
+
+        .booking-form-title {
+            margin: $center;
+            font-size: 50px;
+            
+        }
+
+
+        .top-boxes {
+            flex-direction: column;
+            padding: 5px;
+            width: 10px;
+            margin-left: 175px;
+            
+
+           
+
+
+            .long-box {
+                max-width: 345px;
+                margin-top: 5%;
+            }
+        }
+
+        .check-in-boxes {
+            max-width: 20px;
+            padding-left: 5%;
+            padding-top: 5%;
+            padding-bottom: 3%;
+
+            .long-box {
+                max-width: 345px;
+                margin-top: 5%;
+            }
+
+
+            img {
+                left: 3px;
+            }
+        }
+
+        .drop-down-boxes {
+            flex-direction: column;
+
+            .adult {
+                .adult-input {
+                    img.adult {
+                        left: 260px;
+                    }
+                }
+            }
+
+            .children {
+              
+                img.children {
+                    top: 75px;
+                    left: 260px;
+                }
+            }
+
+            .rooms {
+                
+                img.rooms {
+                    top: 135px;
+                    left: 260px;
+                }
+            }
+
+        }
+
+        .message {
+            max-width: 400px;
+            padding: 5px;
+        }
+
+        .submit-button {
+            max-width: 400px;
+        }
+    }
+
+}

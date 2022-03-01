@@ -1,0 +1,40 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+ position: relative;
+ background-color: #999;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+@media screen and (max-width: 800px) {
+   
+
+    nav {
+        width: 400px;
+
+        .logo {
+            img {
+                height: 75%;
+                padding: 5%;
+                
+                
+            }
+        }
+
+        .links {
+            a {
+                font-size: 12px;
+                
+            }
+        }
+    }
+    
+}
+
